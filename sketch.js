@@ -53,7 +53,7 @@ readySound = loadSound('getready.mp3');
 
 }
 function setup() {
-  createCanvas(900,600);
+  createCanvas(displayWidth,displayHeight);
   ship = createSprite(200,300,65,65);
   ship.addImage(ship_img);
   ship.scale=(0.1);
